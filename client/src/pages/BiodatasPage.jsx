@@ -45,13 +45,13 @@ const BiodatasPage = () => {
   };
 
   return (
-    <div className="flex min-h-screen">
+    <div className="flex min-h-screen bg-white">
       {/* Filter Section */}
-      <div className="w-1/4 p-6 bg-sky-400 shadow-lg rounded-lg">
-        <h3 className="text-xl font-semibold text-gray-700 mb-4">Filter Options</h3>
+      <div className="w-1/4 p-6 bg-black shadow-lg rounded-lg">
+        <h3 className="text-xl font-semibold text-white mb-4">Filter Options</h3>
         
         <div className="mb-4">
-          <label className="block text-gray-600">Biodata Type</label>
+          <label className="block text-white">Biodata Type</label>
           <select
             name="type"
             onChange={handleFilterChange}
@@ -64,7 +64,7 @@ const BiodatasPage = () => {
         </div>
         
         <div className="mb-4">
-          <label className="block text-gray-600">Division</label>
+          <label className="block text-white">Division</label>
           <select
             name="division"
             onChange={handleFilterChange}
@@ -80,7 +80,7 @@ const BiodatasPage = () => {
         </div>
 
         <div className="mb-4">
-          <label className="block text-gray-600">Age Range</label>
+          <label className="block text-white">Age Range</label>
           <input
             type="text"
             name="ageRange"
@@ -99,7 +99,7 @@ const BiodatasPage = () => {
           {biodatas.map((biodata) => (
             <div
               key={biodata.id}
-              className="bg-sky-200 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105"
+              className="bg-rose-400 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105"
             >
               <NavLink to={`/biodataDetailsPage/${biodata._id}`}>
                 <img
