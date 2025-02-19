@@ -45,7 +45,7 @@ const BiodatasPage = () => {
   };
 
   return (
-    <div className="flex min-h-screen bg-white">
+    <div className="flex min-h-screen bg-white pt-16">
       {/* Filter Section */}
       <div className="w-1/4 p-6 bg-black shadow-lg rounded-lg">
         <h3 className="text-xl font-semibold text-white mb-4">Filter Options</h3>
