@@ -4,6 +4,7 @@ import HowItWorks from "../../HowItWorks";
 import SuccessStoriesSection from "../../SuccessStoriesSection";
 import SuccessCounterSection from "../../SuccessCounterSection";
 import Banner from "../Banner/Banner";
+import WhyJoin from "./WhyJoin";
 // import Category from "../Category/Category";
 // import Featured from "../Featured/Featured";
 
@@ -21,9 +22,10 @@ const Home = () => {
             <HowItWorks></HowItWorks>
             <SuccessCounterSection></SuccessCounterSection>
             <SuccessStoriesSection></SuccessStoriesSection>
+            <WhyJoin></WhyJoin>
            
             {/* <Featured></Featured> */}
-            {/* <Testimonials></Testimonials> */}
+            {/* <Testimonial></Testimonial> */}
         </div>
     );
 };
