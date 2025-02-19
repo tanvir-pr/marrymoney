@@ -5,6 +5,7 @@ import SuccessStoriesSection from "../../SuccessStoriesSection";
 import SuccessCounterSection from "../../SuccessCounterSection";
 import Banner from "../Banner/Banner";
 import WhyJoin from "./WhyJoin";
+import AboutMatrimony from "./AboutMatrimony";
 // import Category from "../Category/Category";
 // import Featured from "../Featured/Featured";
 
@@ -19,6 +20,7 @@ const Home = () => {
             <Banner></Banner>
             {/* <Category></Category> */}
             <PremiumProfiles></PremiumProfiles>
+            <AboutMatrimony></AboutMatrimony>
             <HowItWorks></HowItWorks>
             <SuccessCounterSection></SuccessCounterSection>
             <SuccessStoriesSection></SuccessStoriesSection>
